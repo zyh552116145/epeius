@@ -4313,8 +4313,13 @@ function config_Html(token = "test", proxyhost = "") {
             border-bottom: 1px solid var(--border-color);
             display: flex;
             align-items: center;
-            gap: 12px;
             justify-content: space-between;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
 
         .advanced-settings-btn {
@@ -4969,8 +4974,10 @@ function config_Html(token = "test", proxyhost = "") {
             <!-- 订阅链接 -->
             <div class="section">
                 <div class="section-header">
-                    <span>📋</span>
-                    <span>订阅链接</span>
+                    <div class="section-title">
+                        <span>📋</span>
+                        <span>订阅链接</span>
+                    </div>
                     <button class="advanced-settings-btn" onclick="openAdvancedSettings()">⚙️ 自定义订阅设置</button>
                 </div>
                 <div class="section-content">
