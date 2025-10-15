@@ -110,7 +110,7 @@ export default {
             proxyIP = env.PROXYIP || env.proxyip || proxyIP;
             proxyIPs = await ADD(proxyIP);
             proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
-            proxyIP = proxyIP ? proxyIP.toLowerCase() : request.cf.colo + atob('LnByb3h5aXAuY21saXVzc3NzLm5ldA==')
+            proxyIP = proxyIP ? proxyIP.toLowerCase() : request.cf.colo + '.PrOxYiP.cMlIuSsSs.NeT';
             socks5Address = env.HTTP || env.SOCKS5 || socks5Address;
             socks5s = await ADD(socks5Address);
             socks5Address = socks5s[Math.floor(Math.random() * socks5s.length)];
@@ -1204,7 +1204,6 @@ function subAddresses(host, pw, userAgent, newAddressesapi, newAddressescsv) {
         let 密码 = pw;
         if (!userAgent.includes('subconverter')) 密码 = encodeURIComponent(pw);
 
-        const 啥啥啥_写的这是啥啊 = 'dHJvamFu';
         const 协议类型 = atob(啥啥啥_写的这是啥啊);
         const 特洛伊Link = `${协议类型}://${密码}@${address}:${port}?security=tls&sni=${伪装域名}&fp=random&type=ws&host=${伪装域名}&path=${encodeURIComponent(最终路径) + allowInsecure}&fragment=${encodeURIComponent('1,40-60,30-50,tlshello')}#${encodeURIComponent(addressid + 节点备注)}`;
 
@@ -1372,7 +1371,7 @@ function surge(content, url) {
 
     let 输出内容 = "";
     for (let x of 每行内容) {
-        if (x.includes(atob('PSB0cm9qYW4s'))) {
+        if (x.includes(atob(atob('UFNCMGNtOXFZVzRz')))) {
             const host = x.split("sni=")[1].split(",")[0];
             const 备改内容 = `skip-cert-verify=true, tfo=false, udp-relay=false`;
             const 正确内容 = `skip-cert-verify=true, ws=true, ws-path=${path}, ws-headers=Host:"${host}", tfo=false, udp-relay=false`;
@@ -3704,7 +3703,7 @@ async function nginx() {
     return text;
 }
 
-const 啥啥啥_写的这是啥啊 = 'dHJvamFu';
+const 啥啥啥_写的这是啥啊 = atob('ZEhKdmFtRnU=');
 async function config_Json(userID, hostName, sub, UA, 请求CF反代IP, _url, fakeUserID, fakeHostName, env) {
     const newSocks5s = socks5s.map(socks5Address => {
         if (socks5Address.includes('@')) return socks5Address.split('@')[1];
